@@ -47,7 +47,7 @@
 
           <div class="inner cover">
             <h1 class="cover-heading">In Construction</h1>
-            <p class="lead">SeaWater Fox is an upcoming technology-orientated business that specializes in creating a better tomorrow through diverse and intricate software. More information is coming soon.</p>
+            <p class="lead">SeaWater Fox is an upcoming technology-orientated business that specializes in creating a better tomorrow through diverse and intricate software and service. More information is coming soon.</p>
             <p class="lead">
               <a href="#openModal" class="btn btn-lg btn-default">Join the wait</a>
             </p>
