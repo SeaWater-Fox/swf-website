@@ -9,8 +9,8 @@
 
 	// The commands
 	$commands = array(
-		'echo $PWD',
-		'whoami',
+		/*'echo $PWD',	// No no, end user no see here, no no
+		'whoami',*/
 		'git pull',
 		'git status',
 		'git submodule sync',
