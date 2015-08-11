@@ -61,7 +61,7 @@ p a {
 
 header {
     position: absolute;
-    top: 30%;
+    top: 45%;
     left: 50%;
     z-index: 999;
     color: #fff;
@@ -88,6 +88,35 @@ header h1 span {
 header p {
     font-family: Cambria, Georgia, serif;
     font-style: italic;
+}
+
+#content {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  z-index: 999;
+  color: #fff;
+  background: rgba(0,0,0,0.5);
+  padding: 60px;
+  width: 500px;
+  height: 300px;
+  border-radius: 50%;
+  margin: -200px 0 0 -200px;
+  text-align: center;
+}
+
+#content > h1 {
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+    padding: 0 0 10px 0;
+    font-size: 1.3em;
+    border-bottom: 4px solid rgba(255, 255, 255, 0);
+    font-weight: normal;
+    display: inline-block;
+}
+
+#content > h1:hover {
+    border-bottom: 4px solid rgba(255, 255, 255, 1);
+    font-weight: bold;
 }
 
 /* Video Pages */
