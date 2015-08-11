@@ -61,8 +61,8 @@ p a {
 
 header {
     position: absolute;
-    top: 45%;
-    left: 50%;
+    top: -25%;
+    left: -50%;
     z-index: 999;
     color: #fff;
     background: rgba(0,0,0,0.5);
@@ -90,22 +90,29 @@ header p {
     font-style: italic;
 }
 
-#content {
+#body_container {
   position: absolute;
-  top: 75%;
   left: 50%;
+  top: 50%;
+}
+
+#content {
+  position: relative;
+  top: 25%;
+  left: -50%;
   z-index: 999;
   color: #fff;
   background: rgba(0,0,0,0.5);
   padding: 60px;
-  width: 500px;
-  height: 300px;
+  width: 200px;
+  height: 150px;
   border-radius: 50%;
   margin: -200px 0 0 -200px;
   text-align: center;
 }
 
 #content > a {
+    top: 50%;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
     padding: 0 0 10px 0;
     font-size: 1.3em;
