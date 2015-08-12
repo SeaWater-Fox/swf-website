@@ -99,7 +99,7 @@ header p {
 #content {
   position: relative;
   top: 75px;
-  left: -200px;
+  left: -175px;
   z-index: 999;
   color: #fff;
   background: rgba(0,0,0,0.5);
