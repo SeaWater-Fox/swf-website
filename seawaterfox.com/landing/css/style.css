@@ -127,6 +127,28 @@ header p {
     /*font-weight: bold;*/
 }
 
+#footer_container {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+}
+
+#footer {
+  position: relative;
+  top: -55px;
+  left: -165px;
+  z-index: 999;
+  color: #fff;
+  background: rgba(0,0,0,0.5);
+  padding: 40px;
+  width: 350px;
+  height: 50px;
+  border-radius: 5%;
+  text-align: center;
+  font-size: 1em;
+  margin-top: -200px;
+}
+
 /* Video Pages */
 
 .screen {
@@ -155,72 +177,3 @@ header p {
     font-size: 4em;
     text-transform: uppercase;
 }
-
-/* Nav */
-
-nav {
-    position: absolute;
-    right: 5%;
-    top: 45%;
-    padding: 20px;
-    background: #000;
-    border-radius: 40px;
-    opacity: .4;
-    cursor: pointer;
-    z-index: 1000;
-}
-
-nav:hover {
-    opacity: .6;
-}
-
-.next-icon {
-    display: block;
-    border-top: solid 2px #fff;
-    border-right: solid 2px #fff;
-    width: 20px;
-    height: 20px;
-    position: relative;
-    left: -5px;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Codrops Header Style */
-.codrops-top {
-    line-height: 24px;
-    font-size: 11px;
-    background: #fff;
-    background: rgba(255, 255, 255, 0.5);
-    text-transform: uppercase;
-    z-index: 9999;
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    font-family: Cambria, Georgia, serif;
-    box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
-}
-.codrops-top a {
-    padding: 0px 10px;
-    letter-spacing: 1px;
-    color: #333;
-    display: inline-block;
-    text-decoration: none;
-}
-.codrops-top a:hover {
-    background: rgba(255,255,255,0.4);
-}
-.codrops-top span.right{
-    float: right;
-}
-.codrops-top span.right a{
-    float: left;
-    display: block;
-}
-/* End Codrops Header Style */
