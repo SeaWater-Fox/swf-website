@@ -61,7 +61,7 @@ p a {
 
 header {
     position: relative;
-    top: -200px;
+    top: -100px;
     left: -175px;
     z-index: 999;
     color: #fff;
@@ -98,7 +98,7 @@ header p {
 
 #content {
   position: relative;
-  top: 75px;
+  top: 125px;
   left: -175px;
   z-index: 999;
   color: #fff;
@@ -117,13 +117,14 @@ header p {
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
     padding: 0 0 10px 0;
     border-bottom: 4px solid rgba(255, 255, 255, 0);
-    font-weight: normal;
+    animation: border-bottom 0.5s ease-in-out;
+    font-weight: bold;
     display: inline-block;
 }
 
 #content > a:hover {
     border-bottom: 4px solid rgba(255, 255, 255, 1);
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 /* Video Pages */
