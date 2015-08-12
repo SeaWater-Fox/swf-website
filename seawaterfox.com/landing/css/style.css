@@ -60,9 +60,9 @@ p a {
 /* Header */
 
 header {
-    position: absolute;
-    top: -25%;
-    left: -50%;
+    position: relative;
+    top: -180px;
+    left: -175px;
     z-index: 999;
     color: #fff;
     background: rgba(0,0,0,0.5);
@@ -98,8 +98,8 @@ header p {
 
 #content {
   position: relative;
-  top: 25%;
-  left: -50%;
+  top: 75px;
+  left: -150px;
   z-index: 999;
   color: #fff;
   background: rgba(0,0,0,0.5);
@@ -115,7 +115,7 @@ header p {
     top: 50%;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
     padding: 0 0 10px 0;
-    font-size: 1.3em;
+    font-size: 4em;
     border-bottom: 4px solid rgba(255, 255, 255, 0);
     font-weight: normal;
     display: inline-block;
