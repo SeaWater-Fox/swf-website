@@ -55,7 +55,7 @@
 
           <div class="mastfoot">
             <div class="inner">
-              <p>&copy; SeaWater Fox 2015.</p>
+              <p>Copyright &copy; 2015 <a href="https://www.seawaterfox.com">SeaWater Fox, LLC</a>. All rights reserved.</p>
             </div>
           </div>
 
