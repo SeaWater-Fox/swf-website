@@ -61,7 +61,7 @@ p a {
 
 header {
     position: relative;
-    top: -180px;
+    top: -200px;
     left: -175px;
     z-index: 999;
     color: #fff;
@@ -71,6 +71,7 @@ header {
     height: 350px;
     border-radius: 50%;
     text-align: center;
+    margin-top: -200px;
 }
 
 header h1 {
@@ -102,12 +103,13 @@ header p {
   z-index: 999;
   color: #fff;
   background: rgba(0,0,0,0.5);
-  padding: 60px;
-  width: 400px;
-  height: 150px;
-  border-radius: 50%;
+  padding: 40px;
+  width: 350px;
+  height: 190px;
+  border-radius: 5%;
   text-align: center;
   font-size: 4em;
+  margin-top: -200px;
 }
 
 #content > a {
