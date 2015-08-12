@@ -62,7 +62,7 @@ p a {
 header {
     position: relative;
     top: -100px;
-    left: -145px;
+    left: -155px;
     z-index: 999;
     color: #fff;
     background: rgba(0,0,0,0.5);
@@ -99,7 +99,7 @@ header p {
 #content {
   position: relative;
   top: 125px;
-  left: -145px;
+  left: -155px;
   z-index: 999;
   color: #fff;
   background: rgba(0,0,0,0.5);
