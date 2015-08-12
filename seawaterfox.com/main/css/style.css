@@ -327,6 +327,10 @@ i.s6 {
 .service-section-grid:hover i.s6{
 	background: url('../images/img-sprite.png') no-repeat -890px -70px;
 }
+/* Font hover color for font awesome icons in service-section */
+.service-section-grid:hover .fa {
+	color: #F6772C;
+}
 .icon-text {
 	float:left;
 	width:83%;
