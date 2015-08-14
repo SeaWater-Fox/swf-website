@@ -178,3 +178,12 @@ header p {
     font-size: 4em;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 800px) {
+  .screen {
+    display: none;
+  }
+  .wrapper {
+    background-color: white;
+  }
+}
