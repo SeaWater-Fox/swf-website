@@ -67,6 +67,10 @@
             // Use Modernizr to detect for touch devices,
             // which don't support autoplay and may have less bandwidth,
             // so just give them the poster images instead
+			var w = $(window).width();
+			if(w > 800) {
+			
+			}
             var screenIndex = 1,
                 numScreens = $('.screen').length,
                 isTransitioning = false,
@@ -77,7 +81,7 @@
                 $bigImage = $('.big-image'),
                 $window = $(window);
 
-            if (!isTouch) {
+            if (!isTouch && w > 800) {
                 // initialize BigVideo
                 BV = new $.BigVideo({forceAutoplay:isTouch});
                 BV.init();
