@@ -1137,7 +1137,7 @@ span.locate img {
 }
 @media screen and (max-width: 800px){
 	.service-section-grid .fa {
-		margin-left: 0px;
+		margin-left: -5px;
 	}
 	span.menu{
 		width:28px;
