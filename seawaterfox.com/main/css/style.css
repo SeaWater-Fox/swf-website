@@ -1137,7 +1137,7 @@ span.locate img {
 }
 @media screen and (max-width: 800px){
 	.service-section-grid .fa {
-		margin-left: -5px;
+		margin-left: -10px;
 	}
 	span.menu{
 		width:28px;
@@ -1223,6 +1223,7 @@ span.locate img {
 	}
 	.icon {
 		width: 11%;
+		text-align: center;
 	}
 	.icon-text {
 		width: 87%;
