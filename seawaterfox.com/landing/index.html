@@ -67,7 +67,7 @@
             // Use Modernizr to detect for touch devices,
             // which don't support autoplay and may have less bandwidth,
             // so just give them the poster images instead
-			var w = $(window).width();
+			var w = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 			alert(w);
 			if(w < 800) {
 				window.location.assign("mobile.html");
