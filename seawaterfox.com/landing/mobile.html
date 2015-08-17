@@ -62,12 +62,13 @@
             // Use Modernizr to detect for touch devices,
             // which don't support autoplay and may have less bandwidth,
             // so just give them the poster images instead
-			var w = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-			//alert(w); -- used for debugging
-			/*if(w < 800 || window.mobilecheck()) {
-				window.location.assign("mobile.html");
+			     var w = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+			     //alert(w); -- used for debugging
+			     if(w > 800 && !window.mobilecheck()) { // if the width is more than 800 and it isnt a mobile...
+				         window.location.assign("mobile.html");
 
-			}*/
+			     }
+      }
       </script>
 </body>
 </html>
